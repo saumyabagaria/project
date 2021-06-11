@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width",initial-scale="1.0">
+   <title>Signup</title>
+   <link rel="stylesheet" href="/style2.css">
+</head>   
+<body>
+    <section>
+        
+        <div class="contentDiv">
+            <div class="form">
+                <h2>Signup</h2>
+                <form action="http://localhost:3000/register" method="POST">
+                    <div class="inputBox">
+                        <input type="text" class="inputarea"    name="username" placeholder="Username"  required />
+                        <label for="username" class="label">Username</label>
+                    </div>
+                    <div class="inputBox">
+                        <input  type="email" class="inputarea"    name="Email" placeholder="Email"  required />
+                        <label for="Email" class="label">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" class="inputarea"    name="password" placeholder="Password"  required minlength="8"/>
+                        <label for="password" class="label">Password</label>
+                    </div>
+                    <div class="signUp">
+                        <input type="submit" value="Sign up" name="">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="imageDiv">
+            <img src="/images/background.jpg">
+        </div>
+    </section>
+    <img class="logo" src="/images/logo.png"> 
+</body>
+</html>
